@@ -4,7 +4,7 @@ import numpy as np
 
 # Charger le modèle
 model_path = "expresso.pkl"
-model = prediction
+model = 0
 #model = joblib.load(model_path)
 
 
