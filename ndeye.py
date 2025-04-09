@@ -1,10 +1,10 @@
-#import joblib
+import joblib
 import streamlit as st
 import numpy as np
 
 # Charger le modèle
 model_path = "expresso.pkl"
-#model = joblib.load(model_path)
+model = joblib.load(model_path)
 
 
 # Entrées utilisateur
